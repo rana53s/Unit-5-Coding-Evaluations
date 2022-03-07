@@ -2,9 +2,9 @@ import { useState } from "react";
 
 export function InkPens() {
 
-    const [inks, inkPens] = useState(78);
+    const [inks, setInks] = useState(78);
     const handleChange = (val) => {
-        inkPens(inks + val);
+        setInks(inks + val);
     };
 
     return (

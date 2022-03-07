@@ -1,10 +1,12 @@
-.App {
+.items{
   text-align: center;
+  margin-bottom: 12px;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.items button { 
+  margin-left: 6px;
+  padding: 7px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
