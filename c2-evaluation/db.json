@@ -1,0 +1,67 @@
+{
+  "Houses": [
+    {
+      "Name": "Rana Sarkar",
+      "Owners name": "Partha Bhowmik",
+      "Address": "kalyani, Agartala",
+      "Area code": 799004,
+      "rent": 3000,
+      "preferred tenants": "bachelors",
+      "id": 1
+    },
+    {
+      "Name": "Raju Sarkar",
+      "Owners name": "Partha Bhowmik",
+      "Address": "kalyani, Agartala",
+      "Area code": 799004,
+      "rent": 5000,
+      "preferred tenants": "married",
+      "id": 2
+    },
+    {
+      "Name": "Tanmoy Lodh",
+      "Owners name": "Swaraj Dutta",
+      "Address": "Vivek Palli, Agartala",
+      "Area code": 799004,
+      "rent": 2300,
+      "preferred tenants": "bachelors",
+      "id": 3
+    },
+    {
+      "Name": "Chayan Debnath",
+      "Owners name": "Partha",
+      "Address": "Vivek Palli, Agartala",
+      "Area code": 799004,
+      "rent": 3000,
+      "preferred tenants": "bachelors",
+      "id": 4
+    },
+    {
+      "Name": "Mridul Das",
+      "Owners name": "Partha",
+      "Address": "Vivek Palli, Agartala",
+      "Area code": 799004,
+      "rent": 1800,
+      "preferred tenants": "bachelors",
+      "id": 5
+    },
+    {
+      "Name": "Prodyut Das",
+      "Owners name": "Jogendra Das",
+      "Address": "ramnagar, Agartala",
+      "Area code": 799001,
+      "rent": 5000,
+      "preferred tenants": "bachelors",
+      "id": 6
+    },
+    {
+      "Name": "Gautam Das",
+      "Owners name": "Sunil Das",
+      "Address": "ramnagar, Agartala",
+      "Area code": 799001,
+      "rent": 6000,
+      "preferred tenants": "married",
+      "id": 7
+    }
+  ]
+}
