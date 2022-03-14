@@ -8,9 +8,14 @@ function App() {
       <AddHouse />
       <button className="toggleForm">
         {/* Show text Add House or Show Rentals based on state */}
+        Add House
       </button>
       {/* Show component based on state */}
       <br />
+      <button>Rent Low to High</button>
+      <button>Rent High to Low</button>
+      <button>Arear Low to High</button>
+      <button>Area High to Low</button>
     </div>
   );
 }
