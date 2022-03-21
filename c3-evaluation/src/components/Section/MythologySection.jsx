@@ -5,7 +5,7 @@ import { BookCard } from "../BookCard/BookCard";
 import { SortAndFilterButtons } from "../SortAndFilterButtons/SortAndFilterButtons";
 import styled from "styled-components";
 
-export const Section = () => {
+export const MythologySection = () => {
   // you will receive section name from URL here.
   // Get books for only this section and show
   //   Everything else is same as Home page
@@ -16,11 +16,7 @@ export const Section = () => {
 
   return (
     <>
-      <h2 style={{ textAlign: "center" }}>
-        {
-          //   Show section name here
-        }
-      </h2>
+      <h2 style={{ textAlign: "center" }}>Mythology</h2>
       <SortAndFilterButtons handleSort={"give sorting function to component"} />
 
       <Main className="sectionContainer">
