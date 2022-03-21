@@ -1,0 +1,154 @@
+{
+  "books": [
+    {
+      "title": "The Big Sleep by Raymond Chandler",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1371584712l/2052.jpg",
+      "description": "Raymond Chandler’s idea of mystery strays from conventions — for him it’s less about the intricate plot and more about the atmosphere and characters. As such, The Big Sleep is no ordinary story: private eye Philip Marlowe gets hired to investigate the blackmailing of Carmen Sternwood, the second daughter of a wealthy general",
+      "reviews": ["Very Good", "Excellent book on Mystery", "Story is Amazing"],
+      "author": "Raymond Chandler",
+      "price": 1299,
+      "section": "Mystery",
+      "isbnNumber": 2341
+    },
+    {
+      "title": "Gone Girl ",
+      "imageUrl": "https://m.media-amazon.com/images/I/414FyC8BAuL.jpg",
+      "description": "Gone Girl is the ultimate mystery puzzle for the modern media age. Devoted wife Amy’s sudden disappearance throws Nick Dunne into a hailstorm of suspicion — from her parents to his neighbours to the investigators, everyone leans towards believing that he is somehow responsible",
+      "reviews": ["Very Good", "Excellent book on Mystery", "Story is Amazing"],
+      "author": "Gillian Flynn",
+      "price": 599,
+      "section": "Mystery",
+      "isbnNumber": 1234
+    },
+    {
+      "title": "In Cold Blood",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424931136l/168642.jpg",
+      "description": "As it’s based on a real-life case that has already been solved, you might think all the mystery is taken out of Truman Capote’s In Cold Blood. Fortunately, that couldn’t be more wrong, because this nonfiction novel is one of the best-selling crime stories of all time. ",
+      "reviews": ["Very Good", "Excellent book on Mystery", "Best mystery book"],
+      "author": "Truman Capote",
+      "price": 299,
+      "section": "Mystery",
+      "isbnNumber": 4567
+    },
+    {
+      "title": "Woman in White",
+      "imageUrl": "https://m.media-amazon.com/images/I/418byl8zkqL.jpg",
+      "description": "As the title suggests, this final character is the key to the mystery that will enshroud these characters. Set in dimly-lit streets, The Woman in White is as much Gothic horror as it is mystery book, and that’s precisely why the clarity you get when the riddle is solved is so incredibly satisfying. ",
+      "reviews": ["Very Good", "Excellent book on Mystery", "Best mystery book"],
+      "author": "Wilkie Collins",
+      "price": 640,
+      "section": "Mystery",
+      "isbnNumber": 1267
+    },
+    {
+      "title": "The Da Vinci Code",
+      "imageUrl": "https://m.media-amazon.com/images/I/41KuPr7kpZL.jpg",
+      "description": "Dan Brown spending hours meandering between paintings and statues in Paris before coming up with this elaborate quest that Langdon embarks on. The story thus produced is shockingly satisfying to read, and it will no doubt leave you wanting to travel to France’s capital just to retrace Langdon’s steps. ",
+      "reviews": ["Very Good", "Excellent book on Mystery"],
+      "author": "Dan Brown",
+      "price": 399,
+      "section": "Mystery",
+      "isbnNumber": 9967
+    },
+    {
+      "title": "The Age of A.I. ",
+      "imageUrl": "https://enterprisersproject.com/sites/default/files/styles/medium/public/2022-01/age-of-ai-book.jpg?itok=sOrBgkSp",
+      "description": "Three of the world’s most accomplished and deep thinkers come together to explore Artificial Intelligence (AI) and the way it is transforming human society – and what this technology means for us all. AI is coming online in searching, streaming, medicine, education, and many other fields and, in so doing, transforming how humans are experiencing reality.",
+      "reviews": ["Very Good", "Excellent book on Technology", "Best technologybook"],
+      "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
+      "price": 764,
+      "section": "Technology",
+      "isbnNumber": 2341
+    },
+    {
+      "title": "Communicating with Data ",
+      "imageUrl": "https://enterprisersproject.com/sites/default/files/styles/medium/public/2022-01/communicating-with-data-book.jpeg?itok=fpbK-b3Y",
+      "description": "Data is a fantastic raw resource for powering change in an organization, but all too often the people working in those organizations don’t have the necessary skills to communicate with data effectively",
+      "reviews": ["Very Good", "Excellent book on Technology", "Best technologybook"],
+      "author": "Carl Allchin",
+      "price": 999,
+      "section": "Technology",
+      "isbnNumber": 2099
+    },
+    {
+      "title": "Everybody wants to rule the world ",
+      "imageUrl": "https://enterprisersproject.com/sites/default/files/styles/medium/public/2022-01/saveworldbook.jpg?itok=wI-g0e3H",
+      "description": "Drawing on considerable original research and case studies from Wang’s acclaimed firm, Constellation Research, this groundbreaking guide reveals which kinds of companies will thrive and which will get crushed by the powerful forces now at work",
+      "reviews": ["Very Good", "Excellent book on Technology", "Best technologybook"],
+      "author": "R. “Ray” Wang",
+      "price": 1299,
+      "section": "Technology",
+      "isbnNumber": 3423
+    },
+    {
+      "title": "Kubernetes Security and Observability ",
+      "imageUrl": "https://enterprisersproject.com/sites/default/files/styles/medium/public/2022-01/kubernetes-book.jpeg?itok=mo7qUQ9M",
+      "description": "Securing, observing, and troubleshooting containerized workloads on Kubernetes can be daunting. It requires a range of considerations, from infrastructure choices and cluster configuration to deployment controls and runtime and network security",
+      "reviews": ["Very Good", "Excellent book on Technology", "Best technologybook"],
+      "author": "Brendan Creane, Amit Gupta",
+      "price": 1500,
+      "section": "Technology",
+      "isbnNumber": 4568
+    },
+    {
+      "title": "The Palace of Illusions",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2789/4914/files/The_Palace_of_Illusions_by_Chitra_Banerjee_Divakaruni.jpg?v=1611199929",
+      "description": "With vivid dialogues of the women in The Palace of Illusions, Chitra Banerjee Divakaruni establishes herself as a splendid storyteller. Her work serves as a feminist retelling of the Mahabharata through the eyes of Panchaali or Draupadi, a layered character who acted as the catalyst that launched the war for Dharma",
+      "reviews": ["Very Good", "Excellent book on Mythology", "Amazing"],
+      "author": "Chitra Banerjee Divakaruni",
+      "price": 299,
+      "section": "Mythology",
+      "isbnNumber": 8730
+    },
+    {
+      "title": "Book Name",
+      "imageUrl": "image Url",
+      "description": "Book desc",
+      "reviews": ["Very Good", "Excellent book on Mythology", "Amazing"],
+      "author": "Book Author",
+      "price": 1234,
+      "section": "Mythology",
+      "isbnNumber": 9436
+    },
+    {
+      "title": "Book Name",
+      "imageUrl": "image Url",
+      "description": "Book desc",
+      "reviews": ["Very Good", "Excellent book on Mythology", "Amazing"],
+      "author": "Book Author",
+      "price": 1234,
+      "section": "Mythology",
+      "isbnNumber": 7005
+    },
+    {
+        "title": "Book Name",
+        "imageUrl": "image Url",
+        "description": "Book desc",
+        "reviews": ["Very Good", "Excellent book on History", "Amazing"],
+        "author": "Book Author",
+        "price": 1234,
+        "section": "history",
+        "isbnNumber": 9366
+      },
+      {
+        "title": "Book Name",
+        "imageUrl": "image Url",
+        "description": "Book desc",
+        "reviews": ["Very Good", "Excellent book on History", "Amazing"],
+        "author": "Book Author",
+        "price": 1234,
+        "section": "history",
+        "isbnNumber": 9856
+      },
+      {
+        "title": "Book Name",
+        "imageUrl": "image Url",
+        "description": "Book desc",
+        "reviews": ["Very Good", "Excellent book on History", "Amazing"],
+        "author": "Book Author",
+        "price": 1234,
+        "section": "history",
+        "isbnNumber": 9803
+      }
+  ]
+}
