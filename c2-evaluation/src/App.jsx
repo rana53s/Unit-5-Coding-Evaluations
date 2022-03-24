@@ -1,21 +1,39 @@
-import './App.css';
-
+import "./App.css";
+import { Rentals } from "./components/Rentals/Rentals";
 import { AddHouse } from "./components/AddHouse/AddHouse";
-
+import { useEffect, useState } from "react";
+import axios from "axios"
 function App() {
+  const [hose, setHouse] = useState([])
+  const [text, setText] = useState(" ")
+  useEffect(() => {
+    gethouse()
+  }, []);
+
+  const gethouse = () => {
+    axios.get(`http://localhost:8080/house`).then((res) => {
+      setHouse(res.data)
+    })
+  }
   return (
     <div className="App">
-      <AddHouse />
-      <button className="toggleForm">
-        {/* Show text Add House or Show Rentals based on state */}
-        Add House
+      <AddHouse></AddHouse>
+      <button className="toggleForm" onClick={() => {
+        fetch(`http://localhost:8080/house`, {
+          method: "POST",
+          body: JSON.stringify({ title: text, purchased: false }),
+          headers: {
+            "Content-Type":"application/json"
+          },
+        }).then(() => {
+          gethouse()
+        })
+      }} >
+        Addhouse
       </button>
       {/* Show component based on state */}
       <br />
-      <button>Rent Low to High</button>
-      <button>Rent High to Low</button>
-      <button>Arear Low to High</button>
-      <button>Area High to Low</button>
+      <Rentals></Rentals>
     </div>
   );
 }
