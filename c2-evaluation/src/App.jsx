@@ -33,7 +33,7 @@ function App() {
       </button>
       {/* Show component based on state */}
       <br />
-      <Rentals></Rentals>
+      <Rentals data={ house }/>
     </div>
   );
 }
