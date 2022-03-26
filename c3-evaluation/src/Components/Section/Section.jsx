@@ -30,6 +30,13 @@ export const Section = () => {
     margin: auto;
   `;
 
+  const handleSort = (sortBy, order) => {
+    if (sortBy === 'title' && order === 1) setBook((prev) => [...prev.sort((a, b) => a.title > b.title ? 1 : -1)]);
+    else if (sortBy === 'title' && order === -1) setBook((prev) => [...prev.sort((a, b) => a.title > b.title ? -1 : 1)]);
+    else if (sortBy === 'price' && order === 1) setBook((prev) => [...prev.sort((a, b) => a.price - b.price)]);
+    else if (sortBy === 'price' && order === -1) setBook((prev) => [...prev.sort((a, b) => b.price - a.price)]);
+  }
+
   return (
     <>
       <h2 style={{ textAlign: "center" }}>
@@ -38,7 +45,7 @@ export const Section = () => {
         }
         { section }
       </h2>
-      <SortAndFilterButtons handleSort={"give sorting function to component"} />
+      <SortAndFilterButtons handleSort={handleSort} />
 
       <Main className="sectionContainer">
         {/* SHow same BookCard component here, 

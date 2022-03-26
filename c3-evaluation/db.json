@@ -8,7 +8,8 @@
       "author": "Raymond Chandler",
       "price": 1299,
       "section": "mystery",
-      "isbnNumber": 2341
+      "isbnNumber": 2341,
+      "id":1
     },
     {
       "title": "Gone Girl ",
@@ -18,7 +19,8 @@
       "author": "Gillian Flynn",
       "price": 599,
       "section": "mystery",
-      "isbnNumber": 1234
+      "isbnNumber": 1234,
+      "id":2
     },
     {
       "title": "In Cold Blood",
@@ -28,7 +30,8 @@
       "author": "Truman Capote",
       "price": 299,
       "section": "mystery",
-      "isbnNumber": 4567
+      "isbnNumber": 4567,
+      "id":3
     },
     {
       "title": "Woman in White",
@@ -38,7 +41,8 @@
       "author": "Wilkie Collins",
       "price": 640,
       "section": "mystery",
-      "isbnNumber": 1267
+      "isbnNumber": 1267,
+      "id":4
     },
     {
       "title": "The Da Vinci Code",
@@ -48,7 +52,8 @@
       "author": "Dan Brown",
       "price": 399,
       "section": "Mystery",
-      "isbnNumber": 9967
+      "isbnNumber": 9967,
+      "id":5
     },
     {
       "title": "The Age of A.I. ",
@@ -58,7 +63,8 @@
       "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
       "price": 764,
       "section": "technology",
-      "isbnNumber": 2341
+      "isbnNumber": 2341,
+      "id":6
     },
     {
       "title": "Communicating with Data ",
@@ -68,7 +74,8 @@
       "author": "Carl Allchin",
       "price": 999,
       "section": "technology",
-      "isbnNumber": 2099
+      "isbnNumber": 2099,
+      "id":7
     },
     {
       "title": "Everybody wants to rule the world ",
@@ -78,7 +85,8 @@
       "author": "R. “Ray” Wang",
       "price": 1299,
       "section": "technology",
-      "isbnNumber": 3423
+      "isbnNumber": 3423,
+      "id":8
     },
     {
       "title": "Kubernetes Security and Observability ",
@@ -88,7 +96,8 @@
       "author": "Brendan Creane, Amit Gupta",
       "price": 1500,
       "section": "technology",
-      "isbnNumber": 4568
+      "isbnNumber": 4568,
+      "id":9
     },
     {
       "title": "The Palace of Illusions",
@@ -98,7 +107,8 @@
       "author": "Chitra Banerjee Divakaruni",
       "price": 299,
       "section": "mythology",
-      "isbnNumber": 8730
+      "isbnNumber": 8730,
+      "id":10
     },
     {
       "title": "The Shiva Trilogy",
@@ -108,7 +118,8 @@
       "author": "Amish Tripathi",
       "price": 349,
       "section": "mythology",
-      "isbnNumber": 9436
+      "isbnNumber": 9436,
+      "id":11
     },
     {
       "title": "Lanka's Princess",
@@ -118,7 +129,8 @@
       "author": "Kavita Kane",
       "price": 399,
       "section": "mythology",
-      "isbnNumber": 7005
+      "isbnNumber": 7005,
+      "id":12
     },
     {
         "title": "1491",
@@ -128,7 +140,8 @@
         "author": "Charles C. Mann",
         "price": 699,
         "section": "history",
-        "isbnNumber": 9366
+        "isbnNumber": 9366,
+        "id":13
       },
       {
         "title": "The Guns of August",
@@ -138,7 +151,8 @@
         "author": "Barbara Tuchman",
         "price": 549,
         "section": "history",
-        "isbnNumber": 9856
+        "isbnNumber": 9856,
+        "id":14
       },
       {
         "title": "The Battle for Spain",
@@ -148,7 +162,8 @@
         "author": "Antony Beevor",
         "price": 334,
         "section": "history",
-        "isbnNumber": 9803
+        "isbnNumber": 9803,
+        "id":15
       }
   ]
 }

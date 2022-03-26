@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const BookCard = ({ id, imageUrl, title, price }) => {
   
-  const StyleLink = styled.a`
+  const StyleLink = styled(Link)`
     color: teal;
     border: 1px solid black;
     text-align: center;
@@ -11,7 +11,7 @@ export const BookCard = ({ id, imageUrl, title, price }) => {
     width: 300px;
   `;
 
-  return <StyleLink>
+  return <StyleLink to={`/bookdetailspage/${id}`} >
     <img src = {imageUrl} style = {{width: '200px', height: '260px'}}/>
     <p>{title}</p>
     <h4>{price}</h4>

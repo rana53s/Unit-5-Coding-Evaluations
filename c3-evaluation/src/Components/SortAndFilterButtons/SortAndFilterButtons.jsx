@@ -1,10 +1,10 @@
 export const SortAndFilterButtons = ({ handleSort }) => {
   return (
     <div className="sortButtons">
-      <button className="sortByTitleAsc" >Title Asce</button>
-      <button className="sortByTitleDesc" >Title Desc</button>
-      <button className="sortByPriceAsc" >Price Asce</button>
-      <button className="sortByPriceDesc" >Price Desc</button>
+      <button className="sortByTitleAsc" onClick={() => handleSort("title", 1)} >Title Asce</button>
+      <button className="sortByTitleDesc" onClick={() => handleSort("title", -1)} >Title Desc</button>
+      <button className="sortByPriceAsc" onClick={() => handleSort("price", 1)} >Price Asce</button>
+      <button className="sortByPriceDesc" onClick={() => handleSort("price", -1)} >Price Desc</button>
     </div>
   );
 };

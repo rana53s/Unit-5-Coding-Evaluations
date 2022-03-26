@@ -5,10 +5,10 @@ import axios from 'axios';
 import styled  from "styled-components";
 
 export const Home = () => {
-
-  const [book, setBook] = useState([]);
   // get all books when user lands on the page
   // populate them as mentioned below
+
+  const [book, setBook] = useState([]);
 
   useEffect(() => fetchData(), []);
 
