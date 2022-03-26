@@ -7,7 +7,7 @@
       "reviews": ["Very Good", "Excellent book on Mystery", "Story is Amazing"],
       "author": "Raymond Chandler",
       "price": 1299,
-      "section": "Mystery",
+      "section": "mystery",
       "isbnNumber": 2341
     },
     {
@@ -17,7 +17,7 @@
       "reviews": ["Very Good", "Excellent book on Mystery", "Story is Amazing"],
       "author": "Gillian Flynn",
       "price": 599,
-      "section": "Mystery",
+      "section": "mystery",
       "isbnNumber": 1234
     },
     {
@@ -27,7 +27,7 @@
       "reviews": ["Very Good", "Excellent book on Mystery", "Best mystery book"],
       "author": "Truman Capote",
       "price": 299,
-      "section": "Mystery",
+      "section": "mystery",
       "isbnNumber": 4567
     },
     {
@@ -37,7 +37,7 @@
       "reviews": ["Very Good", "Excellent book on Mystery", "Best mystery book"],
       "author": "Wilkie Collins",
       "price": 640,
-      "section": "Mystery",
+      "section": "mystery",
       "isbnNumber": 1267
     },
     {
@@ -57,7 +57,7 @@
       "reviews": ["Very Good", "Excellent book on Technology", "Best technologybook"],
       "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
       "price": 764,
-      "section": "Technology",
+      "section": "technology",
       "isbnNumber": 2341
     },
     {
@@ -67,7 +67,7 @@
       "reviews": ["Very Good", "Excellent book on Technology", "Best technologybook"],
       "author": "Carl Allchin",
       "price": 999,
-      "section": "Technology",
+      "section": "technology",
       "isbnNumber": 2099
     },
     {
@@ -77,7 +77,7 @@
       "reviews": ["Very Good", "Excellent book on Technology", "Best technologybook"],
       "author": "R. “Ray” Wang",
       "price": 1299,
-      "section": "Technology",
+      "section": "technology",
       "isbnNumber": 3423
     },
     {
@@ -87,7 +87,7 @@
       "reviews": ["Very Good", "Excellent book on Technology", "Best technologybook"],
       "author": "Brendan Creane, Amit Gupta",
       "price": 1500,
-      "section": "Technology",
+      "section": "technology",
       "isbnNumber": 4568
     },
     {
@@ -97,7 +97,7 @@
       "reviews": ["Very Good", "Excellent book on Mythology", "Amazing"],
       "author": "Chitra Banerjee Divakaruni",
       "price": 299,
-      "section": "Mythology",
+      "section": "mythology",
       "isbnNumber": 8730
     },
     {
@@ -107,7 +107,7 @@
       "reviews": ["Very Good", "Excellent book on Mythology", "Amazing"],
       "author": "Amish Tripathi",
       "price": 349,
-      "section": "Mythology",
+      "section": "mythology",
       "isbnNumber": 9436
     },
     {
@@ -117,7 +117,7 @@
       "reviews": ["Very Good", "Excellent book on Mythology", "Amazing"],
       "author": "Kavita Kane",
       "price": 399,
-      "section": "Mythology",
+      "section": "mythology",
       "isbnNumber": 7005
     },
     {
