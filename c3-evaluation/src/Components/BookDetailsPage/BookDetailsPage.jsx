@@ -1,15 +1,26 @@
 import { useEffect, useState } from "react";
-import { BookCard } from "../BookCard/BookCard";
+// import { BookCard } from "../BookCard/BookCard";
 import axios from 'axios';
 import { useParams } from "react-router";
+import { NotFound } from "../NotFound/NotFound";
 
 export const BookDetailsPage = () => {
   // Get book details based on ID whenever user lands on the page
   // ID will come from route
   const { id } = useParams();
-  const [book, setBook] = useState({});
+  const [book, setBook] = useState({
+    title:"",
+    imageUrl:"",
+    description:"",
+    reviews:[""],
+    author:"",
+    price:0,
+    section:"0",
+    isbnNumber:0,
+    id:0
+  });
 
-  useEffect(() => fetchData(), []);
+  useEffect(() => fetchData(), [id]);
 
   async function fetchData() {
     await axios.get(`http://localhost:8080/books/${id}`).then((res) => {
@@ -17,6 +28,7 @@ export const BookDetailsPage = () => {
     })
   }
 
+  if(book.title.length===0)return <NotFound/>
   return (
     <>
       <div className="bookContainer">

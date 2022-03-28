@@ -4,6 +4,7 @@ import axios from "axios";
 import { BookCard } from "../BookCard/BookCard";
 import { SortAndFilterButtons } from "../SortAndFilterButtons/SortAndFilterButtons";
 import styled from "styled-components";
+import { NotFound } from "../NotFound/NotFound";
 
 export const Section = () => {
   // you will receive section name from URL here.
@@ -18,7 +19,7 @@ export const Section = () => {
   useEffect(() => fetchData(), [section]);
 
   async function fetchData() {
-    await axios.get("http://localhost:8080/books").then((res) => setBook([...res.data.filter(e => e.section === section)]))
+    await axios.get(`http://localhost:8080/books?section=${section}`).then((res) => setBook([...res.data.filter(e => e.section === section)]))
   }
 
   const Main = styled.div`
@@ -36,7 +37,7 @@ export const Section = () => {
     else if (sortBy === 'price' && order === 1) setBook((prev) => [...prev.sort((a, b) => a.price - b.price)]);
     else if (sortBy === 'price' && order === -1) setBook((prev) => [...prev.sort((a, b) => b.price - a.price)]);
   }
-
+  if (book.length === 0) return <NotFound />;
   return (
     <>
       <h2 style={{ textAlign: "center" }}>
