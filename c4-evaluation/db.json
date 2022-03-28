@@ -1,0 +1,297 @@
+{
+  "users": [
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    },
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": ["technology", "food", "movies", "culture", "art", "drama"],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [1, 5]
+    }
+  ],
+
+  "meetups": [
+    {
+      "id": 1,
+      "title": "Technology Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVjaG5vbG9naWVzJTIwbWVldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "title": "Technology Strech Mumbai",
+      "location": "mumbai",
+      "date": "2022-03-26",
+      "time": "21:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1562979314-bee7453e911c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Technology Strech",
+      "location": "kolkata",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1568992688065-536aad8a12f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVldHVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 4,
+      "title": "Technology Strech",
+      "location": "delhi",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/1/bag-and-hands.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVldHVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 5,
+      "title": "Technology Strech",
+      "location": "kolkata",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1576085898323-218337e3e43c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVjaG5vbG9neSUyMG1lZXR1cHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 6,
+      "title": "Food Strech",
+      "location": "delhi",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "food",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1554774853-5fb9f93ff5e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMG1lZXR1cHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 7,
+      "title": "Food Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "food",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZvb2QlMjBtZWV0dXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 8,
+      "title": "Food Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "food",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG1lZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 9,
+      "title": "Food Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "food",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMG1lZXR1cHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 10,
+      "title": "Food Strech",
+      "location": "mumbai",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "food",
+      "description": "Random Event",
+      "image": "https://media.istockphoto.com/photos/girlfriends-meetup-hangout-dining-concept-picture-id803045008?s=612x612"
+    },
+    {
+      "id": 11,
+      "title": "Culture Strech",
+      "location": "kolkata",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "culture",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1484972759836-b93f9ef2b293?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8MzMzMDQ2MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 12,
+      "title": "Culture Strech",
+      "location": "kolkata",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "culture",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1563183366-0773e86c3a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MjQxMjI5N3x8ZW58MHx8fHw%3D&dpr=1&auto=format&fit=crop&w=294&q=60"
+    },
+    {
+      "id": 13,
+      "title": "Culture Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "culture",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1525725296312-37c06d2338ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8OTkyNDEyfHxlbnwwfHx8fA%3D%3D&dpr=1&auto=format&fit=crop&w=294&q=60"
+    },
+    {
+      "id": 14,
+      "title": "Culture Strech",
+      "location": "delhi",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "culture",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1536607774613-b287a2f4e698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw2MTUxMjg4fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 15,
+      "title": "Culture Strech",
+      "location": "kolkata",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "culture",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjl8NjE1MTI4OHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 16,
+      "title": "Drama Strech",
+      "location": "mumbai",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "drama",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1499720843949-d9e6f318dca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZHJhbWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 17,
+      "title": "Drama Strech",
+      "location": "kolkata",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "drama",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1630050525402-06c617847d27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJhbWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 18,
+      "title": "Saunter Strech",
+      "location": "mumbai",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "drama",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1550026593-cb89847b168d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZHJhbWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id":19,
+      "title": "Drama Strech",
+      "location": "kolkata",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "drama",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1559781726-b7c7e77515ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRyYW1hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 20,
+      "title": "Drama Strech",
+      "location": "mumbai",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "drama",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1611673982501-93cabee16c77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGRyYW1hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    }
+  ]
+}
