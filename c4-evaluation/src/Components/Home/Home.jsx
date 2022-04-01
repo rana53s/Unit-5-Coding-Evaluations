@@ -8,22 +8,26 @@ export const Home = () => {
   useEffect(() => fetchMeetups(), []);
 
   const fetchMeetups = async () => {
-    await axios.get("http://localhost:8080/meetups").then((res) => setMeetup([...res.data]))
+    await axios.get("http://localhost:8080/meetups").then((res) => {
+      console.log(res);
+      setMeetup([...res.data]);
+      
+    });
   }
 
   return (
     <div className="homeContainer">
       {meetup.map(el => <div key={el.id} id={el.id} title={el.title} location={el.location} image={el.image} theme={el.theme} time={el.time}
-        style={{backgroundColor: 'teal'}}
+        style={{ backgroundColor: 'teal' }}
       >
-        <img src={el.image} alt="" style={{width: '270px'}} />
+        <img src={el.image} alt="" style={{ width: '270px' }} />
         <h2>Title: {el.title}</h2>
         <h3>Location: {el.location}</h3>
         <h3>Theme: {el.theme} </h3>
         <h5>Time: {el.time}</h5>
       </div>)}
       {[]
-        .filter((el) => { }) // Filter on the basis of Users interests and location (both true)
+        .filter() // Filter on the basis of Users interests and location (both true)
         .map((el) => {
           return (
             <Link to={`add route here`} className="events">
